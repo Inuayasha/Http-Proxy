@@ -9,7 +9,7 @@ const app = express();
 
 // Configuration
 const PORT = process.env.PORT || 3000;
-const HOST = "localhost";
+const HOST = "0.0.0.0";
 const API_SERVICE_URL = "https://api-v2.soundcloud.com";
 
 // Logging
