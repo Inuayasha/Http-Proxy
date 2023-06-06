@@ -1,3 +1,4 @@
+require('dotenv').config({path: __dirname + '/.env'})
 const express = require('express');
 const morgan = require('morgan');
 const {createProxyMiddleware} = require('http-proxy-middleware');
@@ -7,7 +8,7 @@ const {createProxyMiddleware} = require('http-proxy-middleware');
 const app = express();
 
 // Configuration
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const HOST = "localhost";
 const API_SERVICE_URL = "https://api-v2.soundcloud.com";
 
