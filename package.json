@@ -1,0 +1,25 @@
+{
+  "name": "http-proxy",
+  "version": "1.0.0",
+  "description": "simple http proxy",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inuayasha/Http-Proxy.git"
+  },
+  "author": "Arya Murray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inuayasha/Http-Proxy/issues"
+  },
+  "homepage": "https://github.com/Inuayasha/Http-Proxy#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
