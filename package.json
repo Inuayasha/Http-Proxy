@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Inuayasha/Http-Proxy#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "http-proxy-middleware": "^2.0.6",
